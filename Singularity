@@ -37,7 +37,7 @@ From: ubuntu:16.04
     apt-get -y install build-essential gfortran
 
     # install some bioinfo tools from Bioconda
-    conda install -y -c bioconda numpy pandas scikit-learn deeptools pymc3 meme
+    conda install -y -c bioconda numpy pandas scikit-learn deeptools ArviZ pymc3 meme
 
 
 %environment
